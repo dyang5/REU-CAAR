@@ -1,0 +1,43 @@
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage{graphics}
+\usepackage{amsthm}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{listings}
+\usepackage{mathtools}
+\usepackage[margin=1in]{geometry}
+\usepackage{hyperref}
+\usepackage{xcolor}
+
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{definition}{Definition}
+
+\title{Fair Decision Making}
+\author{David Yang, Selena She, Amy Feng, Xander Goslin}
+\date{Summer 2023}
+
+\begin{document}
+
+\maketitle
+
+\section{Background Reading}
+\subsection{\href{https://arxiv.org/abs/1406.2661}{Generative Adversarial Networks}}
+
+\begin{definition}[Generator]
+A \textbf{generator} is a neural network that learns to generate realistic samples by transforming random noise into data samples that resemble the training data.
+\end{definition}
+
+\begin{definition}[Discriminator]
+A \textbf{discriminator} is a neural network that aims to distinguish between real and fake examples.
+\end{definition}
+
+More formally, a generative model captures the data distribution and a discriminative model estimates the probability that a sample came from the training data rather than G. "The generative model can be thought of as analogous to a team of counterfeiters, trying to produce fake currency and use it without detection, while the discriminative model is analogous to the police, trying to detect the counterfeit currency."
+
+\begin{definition}
+\textbf{Adversarial nets} refer to the specific case where the generative model generates samples by passing random noise through a multilayer perceptron, and the discriminative model is also a multilayer perceptron. 
+\end{definition}
+
+\subsection{\href{https://arxiv.org/abs/2006.11239}{Denoising Diffusion Probabilistic Model} / \href{https://arxiv.org/abs/2010.02502}{Denoising Diffusion Implicit Model}}
+\end{document}
