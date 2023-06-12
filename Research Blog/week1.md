@@ -65,3 +65,9 @@ To summarize the literature we've read so far using the language from the survey
 - 4:00 - 5:00 PM: Listened to Professor Marine Carpuat give her talk on the "Improving Machine Translation for Wikipedia" project. 
 
 This concludes our official research for the first week! I ended up walking to some Korean BBQ -- which was fun -- with a big group (ML, SS, DS, LH, AB, SK, NL) for a late dinner. This weekend, I'm hoping to Overleaf up my notes on the papers this week and prep for a meeting with Furong early next week.
+
+### <u>Day 6 & 7 (June 10th and 11th)</u>
+
+First official weekend of the REU! I spent a good portion of the weekend out walking around and exercising -- I went to the UMD pool on Saturday and got a nice workout in and then played tennis with AB and AF after watching the French Open in the morning with them. Tonight (Sunday), we had a "taco night" with ML, DS, AB, SS, AF, and LH, where we made and ate tacos and nachos together. Though I got relegated to dishwashing duty in the end, it was a good time. Afterwards, I ended up throwing a football/frisbee around with LH, ML, and DS.
+
+Research wise, this weekend, I ended up doing a bit of typing up my notes (see Notes folder for most recently updated version), but will continue to do that before meeting with our group leader Furong next Wednesday.
