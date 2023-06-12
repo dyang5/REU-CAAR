@@ -9,18 +9,24 @@
 \usepackage[margin=1in]{geometry}
 \usepackage{hyperref}
 \usepackage{xcolor}
+\usepackage[symbol]{footmisc}
 
+\renewcommand*{\thefootnote}{\fnsymbol{footnote}}
 
 \newtheorem{theorem}{Theorem}
 \newtheorem{definition}{Definition}
 
 \title{Fair Decision Making}
-\author{David Yang, Selena She, Amy Feng, Xander Goslin}
+\author{David Yang$^{\dagger}$, Selena She$^{\dagger}$, Amy Feng$^{\dagger}$, Xander Goslin$^{\dagger}$}
 \date{Summer 2023}
 
 \begin{document}
 
 \maketitle
+
+\begin{center}
+    Note: $\dagger$ denotes equal contribution.
+\end{center}
 
 \section{Background Reading}
 \subsection{\href{https://arxiv.org/abs/1406.2661}{Generative Adversarial Networks}}
@@ -35,9 +41,31 @@ A \textbf{discriminator} is a neural network that aims to distinguish between re
 
 More formally, a generative model captures the data distribution and a discriminative model estimates the probability that a sample came from the training data rather than G. "The generative model can be thought of as analogous to a team of counterfeiters, trying to produce fake currency and use it without detection, while the discriminative model is analogous to the police, trying to detect the counterfeit currency."
 
-\begin{definition}
+\begin{definition}[Adversarial Nets]
 \textbf{Adversarial nets} refer to the specific case where the generative model generates samples by passing random noise through a multilayer perceptron, and the discriminative model is also a multilayer perceptron. 
 \end{definition}
 
 \subsection{\href{https://arxiv.org/abs/2006.11239}{Denoising Diffusion Probabilistic Model} / \href{https://arxiv.org/abs/2010.02502}{Denoising Diffusion Implicit Model}}
+
+\textit{Other Relevant Resource(s):} \href{https://strikingloo.github.io/wiki/ddim#:~:text=Properties%20of%20DDIM%20vs%20DDPM,have%20similar%20high%2Dlevel%20features}{DDIM vs DDPM Article}
+
+\begin{definition}[Diffusion Model]
+A \textbf{diffusion (probabilistic) model} is a parameterized Markov chain trained using variational inference to produce samples matching the data after finite time.  
+\end{definition}
+
+DDPMs are types of generative models that use probabilistic processes to transform the data from a simple distribution to a more complex target distribution. It iteratively refines the initial random distribution, where in each step it removes the noise from the data and eventually ends up creating a realistic sample of data. In comparison to Generative Adversarial Nets (GANs), GANs may suffer from \textbf{real mode collapse} in which the generator produces just a small variety of data that is not as diverse as real-world data. On the other hand, diffusion models will not have this problem but may take longer/tend to be more computationally expensive. \\
+
+\begin{definition}[DDIM]
+A Denoising diffusion implicit model (DDIM) is a more efficient class of iterative implicit probabilistic models with the same training procedure as DDPMs.
+\end{definition}
+
+The generative process of a DDPM is defined as the "reverse of a Markovian diffusion process," which approximates the reverse of the forward diffusion process (from data to noise) and is much slower than a GAN, which typically requires only one pass through a network. On the other hand, a DDIM allows for much faster sampling while keeping an equivalent training objective, so that generative models using this architecture are competitive to GANs at the same model size/sample quality." This is done by "estimating the addition of multiple Markov chain jumps by estimating the sum of Gaussian Markov jumps as Gaussian." This generalizes the Markovian forward diffusion process of DDPMs to a non-Markovian one. \\
+
+One of the key differences between the DDIM and DDPMs is the "\textbf{consistency}" property (present in DDIMs but not DDPMs): if we start with the same initial latent variable and generate several samples with Markov chains of various lengths, these samples would have similar high-level features. The consistency of DDIMs allow for meaningful image interpolation. 
+\subsection{\href{https://arxiv.org/abs/2302.10893}{Fair Diffusion: Instructing Text-to-Image Generation Models on Fairness}}
+
+\textbf{Fair Diffusion} is a strategy that attenuates biases after the deployment of generative text-to-image models. It shifts a bias, based on human instructions, in any direction yielding arbitrary proportions (e.g. identity groups). 
+% \includegraphics[]{
+
+% }
 \end{document}
