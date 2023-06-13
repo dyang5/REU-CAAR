@@ -1,0 +1,147 @@
+% Template provided by Amy 
+
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{style_template}
+
+\usepackage{amsmath,amssymb,latexsym,amsfonts,amscd,amsthm,framed,dsfont,fullpage,enumitem}
+\usepackage[usenames,dvipsnames]{xcolor}
+
+\usepackage{thmtools}
+\usepackage[framemethod=TikZ]{mdframed}
+\usepackage{hyperref}
+\hypersetup{
+   urlcolor=blue,
+   urlbordercolor=blue,
+   pdfborder={1 1 1},
+   pdfborderstyle={/S/U/W 1}   
+}
+\newcommand{\nc}{\newcommand}
+\nc{\nt}{\newtheorem}
+\nc{\on}{\operatorname}
+
+\mdfdefinestyle{mdbluebox}{%
+    skipabove=8pt,
+    linewidth=2pt,
+    rightline=false,
+    leftline=true,
+    topline=false,
+    bottomline=false,
+    linecolor=blue,
+    backgroundcolor=TealBlue!5,
+}
+\mdfdefinestyle{mdredbox}{%
+    linewidth=0.5pt,
+    skipabove=12pt,
+    frametitleaboveskip=5pt,
+    frametitlebelowskip=0pt,
+    skipbelow=2pt,
+    frametitlefont=\bfseries,
+    innertopmargin=4pt,
+    innerbottommargin=8pt,
+    nobreak=true,
+    backgroundcolor=Salmon!5,
+    linecolor=RawSienna,
+}
+\mdfdefinestyle{mdgreenbox}{%
+    skipabove=8pt,
+    linewidth=2pt,
+    rightline=false,
+    leftline=true,
+    topline=false,
+    bottomline=false,
+    linecolor=ForestGreen,
+    backgroundcolor=ForestGreen!5,
+}
+\mdfdefinestyle{mdblackbox}{%
+    skipabove=8pt,
+    linewidth=3pt,
+    rightline=false,
+    leftline=true,
+    topline=false,
+    bottomline=false,
+    linecolor=black,
+    backgroundcolor=RedViolet!5!gray!5,
+}
+\declaretheoremstyle[
+    headfont=\bfseries,
+    bodyfont=\normalfont\small,
+    spaceabove=0pt,
+    spacebelow=0pt,
+    mdframed={style=mdblackbox}
+]{thmblackbox}
+\declaretheoremstyle[
+    headfont=\sffamily\bfseries\color{blue},
+    mdframed={style=mdbluebox},
+    headpunct={\\[3pt]},
+    postheadspace={0.5pt}
+]{thmbluebox}
+\declaretheoremstyle[
+    headfont=\bfseries\sffamily\color{Green},
+    bodyfont=\normalfont,
+    spaceabove=2pt,
+    spacebelow=1pt,
+    mdframed={style=mdgreenbox},
+    headpunct={ --- },
+    postheadspace={0.5pt}
+]{thmgreenbox}
+\declaretheoremstyle[
+    headfont=\bfseries\color{red},
+    mdframed={style=mdredbox},
+    headpunct={ --- },
+    postheadspace={0pt},
+]{thmredbox}
+\declaretheoremstyle[
+    headfont=\bfseries\sffamily\color{RawSienna!70!black}, bodyfont=\normalfont,
+    numbered=no,
+    mdframed={
+        rightline=false, topline=false, bottomline=false, leftline=false,
+        linecolor=RawSienna, backgroundcolor=RawSienna!5,
+    },
+    qed=\qedsymbol
+]{thmproofbox}
+
+\theoremstyle{definition}
+\declaretheorem[style=thmbluebox,name=Theorem]{theorem}
+\declaretheorem[style=thmredbox,name=Lemma,sibling=theorem]{lemma}
+\declaretheorem[style=thmgreenbox,name=Proposition,sibling=theorem]{proposition}
+\declaretheorem[style=thmbluebox,name=Definition,sibling=theorem]{definition}
+\declaretheorem[style=thmbluebox,name=Theorem,numbered=no]{theorem*}
+\declaretheorem[style=thmredbox,name=Discussion,numbered=no]{discussion*}
+\declaretheorem[style=thmbluebox,name=Proposition,numbered=no]{proposition*}
+\declaretheorem[style=thmgreenbox,name=Approach,numbered=no]{approach*}
+\declaretheorem[style=thmgreenbox,name=Extension,numbered=no]{extension*}
+
+\declaretheorem[style=thmproofbox, name=Proof]{thmproof}
+
+\newenvironment{problem}[1]{\smallskip\noindent\color[rgb]{1.00,0.00,0.50} {\bf #1.}}{}
+\newenvironment{soln}{\begin{proof} \renewcommand{\qedsymbol}{$\blacksquare$}}{\end{proof}}
+
+\nc{\C}{\mathbb{C}}
+\nc{\F}{\mathbb{F}}
+\nc{\Q}{\mathbb{Q}}
+\nc{\Z}{\mathbb{Z}}
+\nc{\R}{\mathbb{R}}
+\nc{\N}{\mathbb{N}}
+\nc{\bP}{\mathbb{P}}
+% \nc\size[1]{\left|#1\right|} % cardinality
+\nc{\la}{\langle}
+\nc{\ra}{\rangle}
+
+\nc{\Hom}{\on{Hom}}
+\nc{\End}{\on{End}}
+\nc{\ch}{\on{char}}
+\nc{\gim}{\on{gim}}
+\nc{\Ima}{\on{im}}
+\nc{\kernel}{\on{ker}}
+\nc{\gker}{\on{gker}}
+\nc{\rank}{\on{rank}}
+\nc{\spn}{\on{span}}
+\nc{\sym}{\on{Sym}}
+\nc{\tr}{\on{tr}}
+\nc{\Stab}{\on{Stab}}
+
+\nc{\ot}{\otimes}
+\nc{\op}{\oplus}
+\nc{\CO}{\mathcal{O}}
+\nc{\CC}{\mathcal{C}}
+\nc{\stwo}[2]{\genfrac{\{}{\}}{0pt}{}{#1}{#2}}
