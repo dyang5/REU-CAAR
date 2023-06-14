@@ -87,19 +87,51 @@ A \textbf{distributional} strategy modifies the dataset prior to training. \\
 An \textbf{inferential} strategy that addresses the problem of fairness based on the model outputs, i.e. that discover and remove social biases without requiring further weight optimization or dataset manipulation
 \end{definition}
 
+There is also a distinction between methods that focus on optimization via training into two categories:
+\begin{definition}[1-Step and 2-Step Training]
+\textbf{One-step-training} includes fair models generated for a particular task via a single optimization procedure, whereas \textbf{Two-step-training} includes models where a new training phase must be performed to fix an existing biased model.
+\end{definition}
 
+There a few methods to debias one-step-training models:
+\begin{definition}[Groups of One-Step-Learning Debiasing Methods]
+\textbf{Adversarial} methods use adversarial examples to teach the model not to resort to undesired biases. \\
+
+\textbf{Causal} methods leverage knowledge on causal-effect between protected attributes and outcomes to fix model unfairness (e.g. create new examples during training/generate ``counterfactual samples"). \\
+
+\textbf{Disentanglement} methods break down features in latent space to manipulate information independently. \\
+
+\textbf{Optimization} methods include loss function adaptions, the addition of regularization terms, and other modifications for improving weight optimization. 
+\end{definition}
+
+\begin{discussion*}
+Of the four one-step-learning debiasing methods discussed above, we anticipate looking at \textbf{Adversarial} methods and \textbf{Disentanglement} methods. \\
+
+An adversarial approach may work similarly to in the following \href{https://arxiv.org/pdf/2203.11933.pdf}{Adversarial Learning Debiasing Method} paper, and a related-to-disentanglement approach is discussed in this \href{https://arxiv.org/pdf/2302.00070.pdf}{Debiasing VLMs via Biased Prompts} paper (that being said, this approach may be better categorized as \textbf{Vector-Space Manipulation}, which is described later).
+\end{discussion*}
+
+Inferential models are distinct from distributional models since they intervene during \textit{inference time} (post-training) to make models fairer.
+
+\begin{definition}[Inferential Models]
+\textbf{Prompting} prepends or alters the model input with specific triggers that stimulate a bias-free result. \\
+
+\textbf{Vector-Space Manipulation} manipulates the embedding space to remove undesired biases.
+\end{definition}
+
+\begin{discussion*}
+We've already seen these two approaches (prompting and vector-space manipulation) in other papers; specifically, the Fair Diffusion (\ref{fairdiffusion}) paper is an example of a prompting approach whereas the Debiasing VLMs paper (\ref{embedding}) paper takes a vector-space manipulation approach.
+\end{discussion*}
 
 
 \newpage
 
 \section{Focused Readings}
-\subsection{\href{https://arxiv.org/abs/2302.10893}{Fair Diffusion: Instructing Text-to-Image Generation Models on Fairness}}
+\subsection{\href{https://arxiv.org/abs/2302.10893}{Fair Diffusion: Instructing Text-to-Image Generation Models on Fairness}}\label{fairdiffusion}
 
 \begin{approach*}
 \textbf{Fair Diffusion} is a strategy that attenuates biases after the deployment of generative text-to-image models. It shifts a bias, based on human instructions, in any direction yielding arbitrary proportions (e.g. identity groups), by instructing a pre-trained model on fairness during the deployment stage.
 \end{approach*}
 
-Fair Diffusion is evaluated with Hugging Face's \href{https://huggingface.co/docs/diffusers/api/pipelines/semantic_stable_diffusion}{Semantic Guidance} pipeline, which allows for changes to image generation to be more easily controlled (and thus enable it to stay closer to the original image composition). \\
+Fair Diffusion is evaluated with Hugging Face's \href{https://huggingface.co/docs/diffusers/api/pipelines/semantic_stable_diffusion}{Semantic Guidance} pipeline, which allows for changes to image generation to be more easily controlled (and thus enable it to stay closer to the original image composition). To classify the gender of the generated images, they use the pre-trained \href{https://arxiv.org/pdf/1908.04913.pdf}{FairFace classifier}.\\
 
 For example, consider the following pairs of images, generated with stable diffusion and fair diffusion: 
 
@@ -110,10 +142,9 @@ For example, consider the following pairs of images, generated with stable diffu
 \end{figure}}
 
 We notice that, despite correcting for the protected attribute of gender, the remainder of the generated images' characteristics stay the same. 
-
 \begin{figure}[H]
     \centering
-\includegraphics[scale = 0.7]{FairDiffusion_Method.png}
+\includegraphics[scale = 0.65]{FairDiffusion_Method.png}
     \label{fig:fairdiffusion_method}
 \end{figure}
 
@@ -162,4 +193,36 @@ Implicit associations are not accounted for (this paper requires a lookup table 
 \noindent \textbf{Can we extend or modify the existing work to support biases implied from text prompts?} 
 \end{extension*}
 
+\newpage
+
+\subsection{\href{https://arxiv.org/pdf/2302.00070.pdf}{Debiasing Vision-Language Models via Biased Prompts}}\label{embedding}
+
+\begin{approach*}
+Many approaches for debiasing Vision-Language Models require training or fine-tuning models using resampled datasets, or modified objectives, which can be computationally expensive. The paper proposes a general approach for "self-debiasing foundation vision-language models by projecting out biased directions in the text embedding." \\
+
+This approach creates a projection matrix (where each row is an attribute) that projects out biased directions. To address possible unstabilities caused by prompts defining the biased directions, they use ``positive pairs" (pairs of prompts that are expected to have the same semantic meaning after projection) to calibrate the projection matrix. Their overall approach does not require training, data, or labels, so it is computationally efficient.
+\end{approach*}
+
+The bias of a classifier will be quantified by computing the cosine similarity between its weights and the corresponding spurious feature. We expect rows of classifier weights to have similar cosine similarities to pairs of embeddings: for example, the embedding of ``a photo of a doctor" should be similar to ``a photo of a male doctor" and ``a photo of a female doctor."
+
+\begin{approach*}
+To evaluate generative models, the paper uses the CLIP classifier to predict the sensitive attributes and human evaluation to corroborate these results. \\
+
+They mention that as an alternative, the FairFace classifier could be used. However, they note that the ``domain shift between the FairFace dataset and the generated images significantly impaired performance" and thus used the CLIP classifier.
+\end{approach*}
+
+\begin{discussion*}
+This paper mentions that FairFace dataset and the generated images significantly impacts the bias/general performance (so they used CLIP) but the Diffusion Paper (\ref{fairdiffusion}) used FairFace as the final classifier. \\ 
+
+We will need to be cognizant of our choice, specifically how the classifiers work on our generated images.
+\end{discussion*}
+
+\newpage
+
+\subsection{\href{https://arxiv.org/pdf/2103.00020.pdf}{Learning Transferable Visual Models from Natural Language Supervision (CLIP)}}
+
+\begin{approach*} \textbf{CLIP} (Contrastive Language-Image Pre-training), is an efficient method of learning from natural language supervision. \\
+
+Given a batch of $N$ (image, text) pairs, CLIP is trained to predict which of the $N \times N$ possible (image, text) pairings across a batch occurred. They do this by jointly training an image encoder and text encoder to maximize the cosine similarity of the image and text embeddings of the N real pairs in the batch.
+\end{approach*}
 \end{document}
