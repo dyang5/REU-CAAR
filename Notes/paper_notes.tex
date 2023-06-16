@@ -225,4 +225,11 @@ We will need to be cognizant of our choice, specifically how the classifiers wor
 
 Given a batch of $N$ (image, text) pairs, CLIP is trained to predict which of the $N \times N$ possible (image, text) pairings across a batch occurred. They do this by jointly training an image encoder and text encoder to maximize the cosine similarity of the image and text embeddings of the N real pairs in the batch.
 \end{approach*}
+
+\subsection{\href{https://openreview.net/pdf?id=pd1P2eUBVfq}{Diffusion Models Already Have a Semantic Latent Space}}
+
+\begin{approach*}
+Diffusion models lack a semantic latent space which is essential for controlling the generative process. The authors introduce a asymmetric reverse process (Asyrp) which discovers the semantic latent space in frozen pretrained diffusion models. The semantic latent space, named h-space, has nice properties to accommodate semantic image manipulation: homogeneity, linearity, robustness, and consistency across timesteps.
+\end{approach*}
+
 \end{document}

@@ -1,0 +1,50 @@
+\documentclass[12pt]{amsart}
+\usepackage[symbol]{footmisc}
+\usepackage{float}
+
+\usepackage{style_template}
+\renewcommand*{\thefootnote}{\fnsymbol{footnote}}
+
+% \newtheorem{theorem}{Theorem}
+% \newtheorem{definition}{Definition}
+
+\title{UMD Fairness Research Group Meeting Notes}
+\author{David Yang$^{\dagger}$, Selena She$^{\dagger}$, Amy Feng$^{\dagger}$, Alexander Goslin$^{\dagger}$}
+\date{Summer 2023}
+
+\begin{document}
+
+\maketitle
+
+\begin{center}
+    Note: $\dagger$ denotes equal contribution.
+\end{center}
+
+\section{Bilevel Optimization Problems in ML and Efficient Solvers (June 15th)}
+
+\textit{Led by Mucong Ding.} \\
+
+\begin{definition}[Bilevel Optimization]
+The \textbf{Bilevel Optimization} problem is 
+\[\min_{v, \theta} f(v, \theta) \, \text{   s.t.  } \, \theta \in \underset{\theta'}{\mathrm{argmin}} \, \, g(v, \theta’)\]
+
+\noindent where $\underset{v, \theta}\min f(v, \theta)$ is the \textbf{outer function} and $\theta \in \underset{\theta'}{\mathrm{argmin}} \, \, g(v, \theta’)$ is the \textbf{inner function}.
+\end{definition}
+
+Note that the bilevel optimization problem can even be framed as a hyperparameter tuning problem in Machine Learning. The bilevel optimization problem can also be summarized as solving two interdependent problems where the outer problem depends on the inner problem. \\
+
+Bilevel Optimization Problems in Machine Learning include the following:
+\begin{enumerate}
+    \item \textbf{Dataset Condensation/Distillation}: we want to learn a synthetic dataset such that the model trained on it has comparable performance to the model trained on the original dataset.
+    \item \textbf{Coreset Selection}: similar to Dataset Condensation, but the learnable set is a subset of the original training set.
+    \item \textbf{Targeted Dataset Poisoning}: modify the training data to cause reclassification of the unmodified test image.
+    \item \textbf{Learnable Dataset Augmentation}: the learning of dataset augmentation can be formulated to minimize the loss of the trained model on the validation split.
+\end{enumerate}
+
+\begin{definition}[Efficient Solvers]BO problems that enjoy convergence guarantee under mild conditions are \textbf{exact solvers}. The main approaches include Hypergradient descent methods, stationary, seeking methods, and value-function methods.
+\end{definition}
+
+To summarize, Bilevel Optimization arises in many ML problems, each of which have unique setups and characteristics.
+
+
+\end{document}
