@@ -232,4 +232,24 @@ Given a batch of $N$ (image, text) pairs, CLIP is trained to predict which of th
 Diffusion models lack a semantic latent space which is essential for controlling the generative process. The authors introduce a asymmetric reverse process (Asyrp) which discovers the semantic latent space in frozen pretrained diffusion models. The semantic latent space, named h-space, has nice properties to accommodate semantic image manipulation: homogeneity, linearity, robustness, and consistency across timesteps.
 \end{approach*}
 
+\subsection{\href{https://arxiv.org/pdf/2110.02711.pdf}{DiffusionCLIP: Text-Guided Diffusion Models for Robust Image Manipulation}}
+
+\begin{approach*}
+\textbf{DiffusionCLIP} performs text-driven image manipulation using diffusion models. Based on
+full inversion capability and high-quality image generation power of recent diffusion models, the method performs zeroshot image manipulation successfully even between unseen domains. The authors propose a novel noise combination
+method that allows straightforward multi-attribute manipulation. Code is available in their
+\href{https://github.com/gwang-kim/DiffusionCLIP.git}{DiffusionCLIP GitHub}
+\end{approach*}
+
+Other ``state-of-the-art text-driven manipulation methods" include TediGAN, StyleCLIP, and \href{https://arxiv.org/pdf/2108.00946.pdf}{StyleGAN-NADA} (which leverages GAN inversion and CLIP loss to achieve image manipulation that does not require additional training with simple text prompts).
+
+\newpage
+
+\section{Summary of Work So Far}
+
+\subsection{Face Detectors}
+
+Existing Facial Detection Algorithms are evaluated on the widely known \href{http://shuoyang1213.me/WIDERFACE/index.html}
+{WIDER FACE} (Face Detection Benchmark Dataset). A number of Facial Detection Algorithms and their evaluations on WIDER FACE can be found \href{http://shuoyang1213.me/WIDERFACE/WiderFace_Results.html}{here}. Note that some of these algorithms are object detection algorithms adapted for facial recognition, but some are also specifically facial detectors (e.g. RetinaFace, YOLO5Face).
+
 \end{document}
