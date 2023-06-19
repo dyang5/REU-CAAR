@@ -63,3 +63,9 @@ After research, I went to a nearby barber shop to get a haircut, and then headed
 ### <u>Day 13 (June 17th)</u>
 
 Weekend Day! Woke up around 10:30 AM, went for lunch at Panda Express in STAMP (a pleasant surprise -- they're the only restaurant open on Saturdays) before heading for a post-lunch swim. I then gathered with DS, SS, AF, LH, SK to grab some Pho for dinner before playing some Hanabi with DS, SS, and SK afterwards. Tomorrow I'm headed to DC with the REU group and then to hopefully meet with some of my high school friends. 
+
+### <u>Day 14 (June 18th)</u>
+
+Second day of the three day weekend. A subset of our REU group (including AG -- our grad mentor -- AZ, ML, DS, AB, SS, JS, SK, NL, LH, and ZS) went to DC for the day. We went to the Museum of Natural History, which was alright (I've been there a few times before but I really liked the Gems exhibit). We then walked over to a Sandwich spot for lunch -- thank god it's getting subsidized because I don't think I would have gotten it otherwise. We then went to the Washington Monument before a group of us (me, SS, ML, LH, NL) branched off to go to ShareTea rather than another museum. It turns out my plans with my high school friends fell through. The overall trip time was from 10 - 6 (including train and walking times), which is quite a lot and perhaps not worth it. All in all, though, it was good to get out with a larger REU group. 
+
+After coming back, I made sure to hit the pool for some exercise (even though I walked nearly 26,000 steps and like 12 miles today) with SS, and we got some Acai Bowls for dinner.
