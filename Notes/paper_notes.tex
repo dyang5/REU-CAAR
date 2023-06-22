@@ -235,13 +235,25 @@ Diffusion models lack a semantic latent space which is essential for controlling
 \subsection{\href{https://arxiv.org/pdf/2110.02711.pdf}{DiffusionCLIP: Text-Guided Diffusion Models for Robust Image Manipulation}}
 
 \begin{approach*}
-\textbf{DiffusionCLIP} performs text-driven image manipulation using diffusion models. Based on
-full inversion capability and high-quality image generation power of recent diffusion models, the method performs zeroshot image manipulation successfully even between unseen domains. The authors propose a novel noise combination
+\textbf{DiffusionCLIP} performs text-driven image manipulation using diffusion models. Based on full inversion capability and high-quality image generation power of recent diffusion models, the method performs zeroshot image manipulation successfully even between unseen domains. The authors propose a novel noise combination
 method that allows straightforward multi-attribute manipulation. Code is available in their
 \href{https://github.com/gwang-kim/DiffusionCLIP.git}{DiffusionCLIP GitHub}
 \end{approach*}
 
 Other ``state-of-the-art text-driven manipulation methods" include TediGAN, StyleCLIP, and \href{https://arxiv.org/pdf/2108.00946.pdf}{StyleGAN-NADA} (which leverages GAN inversion and CLIP loss to achieve image manipulation that does not require additional training with simple text prompts).
+
+\subsection{\href{https://hci.stanford.edu/courses/cs335/2020/sp/dimsonthomas_86285_6198916_report.pdf}{Translating from Unfair to Fair Embeddings}}
+
+\begin{approach*}
+Use a translator network (a neural network) to produce an alternative embedding for a given photo. The translator network assumes nothing about the structure or training procedure for the original embeddings. \\
+
+The overall goal is to preserve as much of the original embedding as possible while removing any encoding of protected attributes.
+\end{approach*}
+
+\begin{discussion*}
+In our own experiments, we can think about their loss function choice (backed up by other work in literature) and their overall procedure.
+\end{discussion*}
+
 
 \newpage
 
