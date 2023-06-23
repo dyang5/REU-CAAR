@@ -7,7 +7,7 @@ Week 3, Day 1
 
 Tomorrow, my research group will discuss what our next steps are and what we want to share with our advisor in a meeting on Wednesday.
 
-### <u>Day 16 (June 19th)</u>
+### <u>Day 16 (June 20th)</u>
 
 Surprise Second Meeting Day
 
@@ -27,7 +27,7 @@ Surprise Second Meeting Day
 
  Overall, today was great -- meeting wise, the feedback seemed positive and we were really happy about that. We also have more direction; rather than trying to formulate more ideas, we have a few that we are hopefully able to build on and test out more!
 
-### <u>Day 17 (June 20th)</u>
+### <u>Day 17 (June 21st)</u>
 
 Week 3, Day 3
 
@@ -38,3 +38,17 @@ Week 3, Day 3
  - 1:15 - 4:00 PM: The afternoon session continued with an extension of our previous discussion. I read over [RLPrompt: Optimizing Discrete Text Prompts with Reinforcement Learning](https://arxiv.org/pdf/2205.12548.pdf), a paper our advisor mentioned might be relevant to our Reinforcement Learning approach. In preparation for coding on the cluster, I also went through the process of pulling up a Jupyter Notebook on the UMD Cluster we will be working on. All this stuff is confusing and there is so much to learn, but it will be a good research process for our group to eventually split up code and work in parallel. Hopefully I won't fall behind, given that I haven't done any of this sort of coding before, but I hear it's not too hard to pick up. At the end, we started formulating the "Experiment Plan" i.e. formalizing what datasets/methods/models/visualization tools we plan to use. It turns out finding a good dataset with groups of people and their faces is more difficult than it sounds -- we will continue with this tomorrow.
 
  After research, ZS drove SS, SK, AB, and I to Target, where I picked up some snacks (now that I am writing this I realize I forgot to get fruit), including Yogurt and Granola Bars (which will be good post-morning-swim snacks) and some Bagel Bites for when the weekend food situation is dire. I had CFA for dinner with AB and SS, where AB and I debated the pros and cons for answers to "which superpower would you pick to have, and why?" (we both agreed on Teleportation but he had some strong opinions for why some of the other options I had considered weren't as good). For the rest of the day (I imagine the rest of the week will be similar due to the rain), I mainly stayed inside and worked on my own things.
+
+ ### <u>Day 18 (June 22nd)</u>
+
+Week 3, Day 4
+
+ - 8:30 - 9:00 AM: Morning swim. Got there a bit late so went for a shorter workout, but still got in around 30ish laps, which is solid. It's going to be drizzling every one of these mornings, so I'll have to get used to that. I do feel like they heat up the pool more when it's raining because it felt really nice to get in the pool today. 
+
+ - 10:00 AM - 12:00 PM: Today was the second week of my advisor's group meetings with her overall research group (including graduate students, other students, etc.). Since we are due to eventually present in one of these meetings (on July 6th), I've decided that it's good to listen in to the other research projects people are interested in to get a general sense of what we will talk about and what is being done. Our presentation is only supposed to be 5-10 minutes, so relatively informal, whereas these group meetings are around 2 hours, but I still think it is worthwhile to listen in. Today, a grad student discussed his Upcoming Projects, including Extreme Multi-label Compression/Online Data Pruning/GNNs for Tensor Completion. I will try to have these notes typed up and available in the `Notes` folder sometime within the next week. My group worked more on our research project -- getting a face detector and gender classifier to work in preparation for our overall project framework, and I joined in shortly after.
+
+ - 1:15 - 4:00 PM: In the afternoon, we continued working on our overall framework. SS has been working on testing out a face detector and gender classifier using pretrained models found in literature (e.g. YOLOv8 for face), as we want to have a pipeline to at least begin testing out our different approaches. I am hoping to work with her more on the coding aspect as I feel like there is a lot for me to learn in that regard, and I think I will need to work more independently/more remotely outside of research hours to do so. During research, AF and I have been focusing on thinking about what datasets we want to use for our training set in our "linear head" approach. The issue is that existing face/general-purpose datasets like LAION-5B are extremely large (tens of TBs) and not feasible given the storage space we have access to. We will need to figure out how to get subsets of this larger dataset and ask our advisor for the feasibility of this approach. As a group, we also tried to formalize our overall framework some more. This is kind of vague, but the goal is to formulate a detailed Experiment Plan with potential issues, ideas, etc. before we end up running any experiments. I'm hoping we'll have a really solid one done tomorrow so we can share it with our advisor early next week. Also, a personal goal is to code more and familiarize myself with the models we are thinking of using/the general coding process for ML, which I think my group members are much more familiar with.
+
+ - 4:00 - 5:00 PM: We had an optional talk hosted jointly with the Biology and Math REUs here at UMD this summer. Professor Najib M. El-Sayed presented his work on "Models in profiling host pathogen interactions." I thought the talk itself was good, as the speaker was quite engaged and interactive. Since the talk was more optional, the remainder of my REU group elected not to go and pretty much only half the overall REU-CAAR group showed.
+
+ For dinner, I grabbed some QD before heading back to the dorms. I played some Catan with XG, SS, and DS, which took up quite a bit of time. The games itself were a bit unlucky for me so I didn't have as much fun as I could have (I think I also had a bad strategy in picking the starting board position). In the future, I will try to get myself to spend more time working on CodeForces, research, and exercising if it's not raining out, as those activities seem more productive overall. Last day of the work week coming up tomorrow! I'm going to try to sleep a bit earlier, swim a bit more, and have a solid last work day.
