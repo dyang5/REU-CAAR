@@ -46,5 +46,37 @@ Bilevel Optimization Problems in Machine Learning include the following:
 
 To summarize, Bilevel Optimization arises in many ML problems, each of which have unique setups and characteristics.
 
+\newpage
 
+\section{Upcoming Projects: (Extreme Multi-label Compression/Online Data Pruning/GNNs for Tensor Completion)}
+
+\textit{Led by Tahseen Rabbani.} \\
+
+\begin{definition}[Extreme Multi-label Learning]
+The eXtreme Multi-label Learning (XML) addresses the problem
+of learning a classifier which can automatically tag a data sample
+with the most relevant subset of labels from a large label set. 
+\end{definition}
+
+\textit{Note: the above definition was taken from the following \href{https://arxiv.org/pdf/1704.03718.pdf}{Deep Extreme Multi-label Learning} paper.} \\
+
+Examples of Extreme Multi-label Datasets include ``Delicious'' (200k), Amazon (670k) -- a product to product recommender, and Wiki (500k) -- excerpts of Wikipedia articles. One of the important steps 
+in this direction is to determine how to perform Extreme Multi-label Compression for better ML on these datasets. \\
+
+A conventional compression strategy is described in \href{https://link.springer.com/article/10.1007/s10994-011-5276-1}{Zhou et. al (2012): Compressed labeling on distilled labelsets for multi-label learning}. 
+A few key weaknesses/observations include:
+\begin{itemize}
+\item The Recovery algorithm $(y*)^{-1}$ restores several classes at once (distillates collates frequently occurring label patterns) all with equal likelihood.
+\item \textbf{We should try to predict a single most likely class/bit in the true label, i.e. P@1.}
+\item SVMS are not appropriate when $p$ (label size) is large. For Delicious-200k, even at a 99\% compression, we would need to train over 200k SVMs over samples with 700k features.
+\item Distillation scheme presented in Zhou et. al will not work for our regime since label size is greater than sample count and there is minimal overlap between labels.
+\end{itemize}
+
+They propose training a DNN over compressed labels. Further observations include:
+``if we believe that round($y^{\ast}$), $y^{\ast}$ is in $R^c$, is close to the SGP (Signed Gaussian Projection) of $y$, then we can find the most likely label $i$ in $y$ by looking at the SGP of the $e_i.$'' \\
+
+Thus, they propose finding the most likely label by comparing only a subset of bits within the SGP of $y$ that were predicted with high accuracy with the equivalent subset in $e_i$. \\
+
+Other topics they are interested in include \textbf{Tensor Completion via GNNs} and \textbf{Better Data Pruning for Large Models}. For the latter topic, some motivation includes the fact that ``For large vision transformers, an additional 2 billion pre-training data points (starting from 1 billion) leads to an accuracy gain on ImageNet of a few percentage points.'' 
+Consequently, there is an observed ``power law" between test-accuracy and the number of examples for large datasets, which can be improved on with better data pruning for large models.
 \end{document}
