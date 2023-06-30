@@ -79,4 +79,37 @@ Thus, they propose finding the most likely label by comparing only a subset of b
 
 Other topics they are interested in include \textbf{Tensor Completion via GNNs} and \textbf{Better Data Pruning for Large Models}. For the latter topic, some motivation includes the fact that ``For large vision transformers, an additional 2 billion pre-training data points (starting from 1 billion) leads to an accuracy gain on ImageNet of a few percentage points.'' 
 Consequently, there is an observed ``power law" between test-accuracy and the number of examples for large datasets, which can be improved on with better data pruning for large models.
+
+\section{Scene Detection in Vision Language Models}
+
+\textit{Led by Yuancheng Xu.} \\
+
+\textit{Note: since Yuancheng preferred to not have his presentation recorded, I refrained from sharing notes for confidentiality.}
+
+\section{Hyper-Dimensional Function Encoding and its Extensions}
+
+\begin{definition}[Continuous Objects]
+    \textbf{Continuous objects} are objects that can be sampled []. \\
+
+    The sample distribution and resolution may vary between the training and testing phase.
+\end{definition}
+
+Suppose one wants to perform Machine Learning tasks on coninuous objects (regression, classification, continuous object prediction, function-to-function mapping), it would be great to encode a continuous objects into a fixed-length vector (so that it can be passed into something like a Neural Network).
+In practice, the continuous objects will be captured by the samples of them, and so traditional Neural Network methods may not work since input dimensions may change. \\
+
+Let $R$ be the continuous object to encode with $\{x_1, x_2, \dots, x_n\}$ being $n$ i.i.d samples from $R$ (with the samples are drawn from a distribution $p$ i.e. $x_i \sim p(R)$ with $p(x) > 0$ for all $x \in \mathbb{R}$). We want an encoder $E(\{x_1, \dots, x_n\}) \rightarrow \mathbb{C}^N.$
+
+\begin{itemize}
+    \item \textbf{Fixed-Length Representation}: $E$ maps arbitrarily many samples into fixed length vector.
+    \item \textbf{Sample Invariance}: As $n \rightarrow \infty$, $E(\{x_1, x_2, \dots, x_n\}) \rightarrow V_\infty$ where $V_\infty$ is independent of $p$.
+    \item \textbf{Decodable}: Suppose $z=E(R)$, one can determine $Prob(x \in R)$ purely from $z$.
+\end{itemize}
+
+Previous work includes Support Vector Regression and Vector Function Architecture (mathematical details left out). Dehao then presented some methodology on his approach and the differences between his approach and previous ones. \\
+
+A high-dimensional experiement found that the performance of an encoding does not depend on the \underline{explicit dimension} $d$, but depends on the \underline{complexity} of the function.
+
+\section{Explaining Embeddings from Model Outputs}
+
+\textit{Led by Bang An.} \\
 \end{document}

@@ -33,7 +33,7 @@ It was raining after research, so I went back to the dorms to relax before our m
 
 Overall, it was definitely a "productive" and successful day for me due to the DeepFace classifier implementation. 
 
-### <u>Day 23 (June 27th)</u>
+### <u>Day 24 (June 28th)</u>
 
 Week 4, Day 3
 
@@ -44,3 +44,20 @@ Week 4, Day 3
  - 1:00 - 4:00 PM: The next step of our work is to actually test the DeepFace gender and race classifiers on the FairFace dataset. To do this, I downloaded the FairFace validation set (with face images and their corresponding labels) and moved them onto the cluster (this took quite a while -- I made the mistake of unzipping the validation folder before moving it to the cluster, which made the process slower). I also wrote skeleton code for testing the classifier using XG's code that he used to train/validate the EfficientNet model he's been working on. I don't think this is fully complete and will need to go back to working on this tomorrow; I'm definitely hopeful that I'll have analysis of the DeepFace classifier on the FairFace dataset by the end of the week.
 
 I stayed a bit after research to make sure that all the FairFace files had been copied to the cluster. Afterwards, I headed back to the dorms to relax before going to the gym to play some basketball with DS, AB, and SS. It was definitely good to get some more exercise in (my first indoor exercise in a week and a half at least) and shoot some hoops -- though I did end up getting some blisters because of my poor choice of socks. Afterwards, we grabbed some CFA before it closed at 7 PM, and I went back to do CodeForces and other related work.
+
+### <u>Day 25 (June 29th)</u>
+
+Week 4, Day 4
+
+ - 8:30 - 9:00 AM: AQI went up to 120 in the morning (150 now), making the air "Unhealthy." As a result, I made the decision to not swim in the morning, which kind of sucked but was probably better for overall health. 
+
+- 10:00 AM - 12:00 PM: As is customary on Thursday mornings, I logged onto Zoom to join my advisor's group research meetings. Today, a few grad students discussed their relative intern projects at Chevron (which was related to VLMs) and Capital One. Another student gave a research talk on "Hyper-Dimensional Function Encoding and its Extensions." The first two talks had some confidential details, and so I refrained from note-taking. The other talk was more math-focused and a bit difficult to follow along note-wise, but the notes I took for that talk are available in the `Notes` folder as per usual.
+
+ - 1:00 - 4:00 PM: As I've been working on for the last few days, I continued to try to set up my work in preparation for analysis on the FairFace dataset. To start, I initially chose to focus my analysis on the smaller testset with 10ish images and 50ish people. My reasoning for this is that I don't want to have to run large jobs on the cluster over and over to get the analysis I want, and so I want to have a mini-example of all the analysis I want using the testset that I can simply reuse on the larger FairFace dataset. Since yesterday I managed to align the FairFace labels with the DeepFace classifier's outputs, I spent most of today trying to further set up the analysis. The first problem was a small error in how we were saving the cropped image files -- we were saving them as "[name].jpg_{number}.jpg" (notice the two `.jpg`s), whereas the file names only contain the ending suffix. The main work I did today (which took nearly two hours to fix -- the error was actually that a random `.DS_Store` somehow got saved in our examples folder, making our program fail to crop images) was to standardize the file names. As explained above, the error itself was quite small and relatively simple, but it took a long time to debug since  `.DS_Store` files do not show in the directories unless you run `ls -a`. It was hilarious that this stalled me for so long but definitely a good learning experience.
+
+ In general, progress is a bit slower than I would like (I want to run the DeepFace classifier on FairFace by the end of the week), but all these steps are common steps in Machine Learning and it's good that I'm getting to code through it, even if it is a tedious process. More progress (actually setting up to match outputs between classifier and hand-labeled testset data, which we also made today) to be made tomorrow, hopefully!
+
+- 4:00 - 5:00 PM: Listened to a talk by Professor Maria Cameron (Math REU director) on "Quantifying Rare Events in Stochastic Systems." Even with previous Applied Math experience, the talk was a bit hard to follow, but it's always good to hear about what others are working on.
+
+After research, I grabbed some Union Pizza for dinner (after also having it for the first time for lunch) since I wanted to stay away from having CFA for back to back dinners. I ended up in NL's suite with LH, SK, and DS, where we talked over dinner and more afterwards. 
+
