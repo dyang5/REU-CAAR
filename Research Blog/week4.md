@@ -1,4 +1,4 @@
-## Week 3
+## Week 4
 
 ### <u>Day 22 (June 26th)</u>
 
@@ -72,3 +72,11 @@ Week 4, Day 5
  - 1:00 - 4:00 PM: In the afternoon session, I wrote some smaller code to extend my work on the toy dataset to the actual FairFace validation set, so we can better analyze the DeepFace gender classifier and its errors on labeled, facial images. After taking some time to set up the code and also attending a PhD defense for Eleftheria Briakou (a grad mentor for the "Machine Translation for Wikipedia Group") on her project "Detecting Fine-Grained Semantic Divergences to Improve Translation Understanding Across Languages," I tried to run the code on the cluster -- after a hour, my Jupyter Notebook bugged and there was no progress. After some brief reflection (and asking around), I realized that I should be running the Notebook on a GPU from the cluster, and so I spent the rest of the day trying to get that running. To put it simply, this did not work, as so even though I know what (preliminary) code I want to run, I haven't been able to get it done using the FairFace validation set. I definitely want to try this a bit more over the long four-day weekend (due to the 4th of July and optional day on Monday) so that I can hopefully have some more detailed analysis to show for on either our next meeting with our advisor or our July 6th meeting.
 
  I stayed a bit after research to try to figure how to use a GPU to run my code -- without any avail. It somehow started raining out, so I waited out the rain before heading back to the dorms when it was raining a bit less. For dinner, I had some leftovers from my PE lunch and combined it with some older leftovers from QD. Afterwards, I watched "The Menu" with LH, SS, AB, MA (and CK briefly) before resting for the night.
+
+### <u>Day 27 (July 1st)</u>
+
+Week 4, Day 6
+
+Today was the first day of a four day weekend for us. Luckily, the AQI was a lot better so I went for a 50 lap swim in the morning with SS. Despite learning that the Masters Swimmers swim from 8:45 - 10:30ish which caused a lot of the lanes to be filled up, the workout was really nice and it was good to get back in the pool after two days of no swimming. 
+
+Afterwards, I grab some Panda Express for lunch and retired to my room to chill and work on some CodeForces problems. For dinner, I went to LaoTao Hotpot with AB, SS, LH, NL, SK, and a student from REU-MATH; this was my first hotpot experience outside of having it with my family and it was pretty good. Overall, a nice and chill day.
