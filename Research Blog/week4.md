@@ -80,3 +80,11 @@ Week 4, Day 6
 Today was the first day of a four day weekend for us. Luckily, the AQI was a lot better so I went for a 50 lap swim in the morning with SS. Despite learning that the Masters Swimmers swim from 8:45 - 10:30ish which caused a lot of the lanes to be filled up, the workout was really nice and it was good to get back in the pool after two days of no swimming. 
 
 Afterwards, I grab some Panda Express for lunch and retired to my room to chill and work on some CodeForces problems. For dinner, I went to LaoTao Hotpot with AB, SS, LH, NL, SK, and a student from REU-MATH; this was my first hotpot experience outside of having it with my family and it was pretty good. Overall, a nice and chill day.
+
+### <u>Day 28 (July 2nd) </u>
+
+Last Day of Week 4
+
+I woke up a bit later than normal and went for a quick morning swim (25 min, 40 laps) before a tennis session with NL. I spent the afternoon mostly lounging around and trying to get my code to run on the cluster's GPU resources (to no avail, unfortunately). For dinner, I went with AB to Root's Natural Kitchen, a healthier Q-Doba alternative that was better than I expected, and grabbed some basic food (Granola, Yogurt, Strawberries) from Trader Joe's. 
+
+And this concludes Week 4 of the REU! Time goes by so fast -- I'm a bit bummed about how little comparatively I was able to get done in research this week but I've been taking baby steps towards the end goal, and I guess that's alright. We have two days off to start the week (July 3rd and 4th) and my parents will be visiting, before a meeting and a presentation for our research group later in the week -- so it will be a busy one.
