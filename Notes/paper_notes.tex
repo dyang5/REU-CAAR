@@ -198,7 +198,7 @@ Implicit associations are not accounted for (this paper requires a lookup table 
 \subsection{\href{https://arxiv.org/pdf/2302.00070.pdf}{Debiasing Vision-Language Models via Biased Prompts}}\label{embedding}
 
 \begin{approach*}
-Many approaches for debiasing Vision-Language Models require training or fine-tuning models using resampled datasets, or modified objectives, which can be computationally expensive. The paper proposes a general approach for "self-debiasing foundation vision-language models by projecting out biased directions in the text embedding." \\
+Many approaches for debiasing Vision-Language Models require training or fine-tuning models using resampled datasets, or modified objectives, which can be computationally expensive. The paper proposes a general approach for ``self-debiasing foundation vision-language models by projecting out biased directions in the text embedding." \\
 
 This approach creates a projection matrix (where each row is an attribute) that projects out biased directions. To address possible unstabilities caused by prompts defining the biased directions, they use ``positive pairs" (pairs of prompts that are expected to have the same semantic meaning after projection) to calibrate the projection matrix. Their overall approach does not require training, data, or labels, so it is computationally efficient.
 \end{approach*}
@@ -254,6 +254,39 @@ The overall goal is to preserve as much of the original embedding as possible wh
 In our own experiments, we can think about their loss function choice (backed up by other work in literature) and their overall procedure.
 \end{discussion*}
 
+\newpage
+
+\subsection{\href{https://arxiv.org/pdf/2303.07345.pdf}{Erasing Concepts from Diffusion Models}}
+
+\begin{approach*}
+``We propose a fine-tuning method that can erase a visual concept from a pre-trained diffusion model, given only the name of the style and using negative guidance as a teacher. Unlike previous methods, our approach can remove concepts
+from a diffusion model permanently rather than modifying
+the output at the inference time, so it cannot be circumvented
+even if a user has access to model weights."
+\end{approach*}
+
+\begin{discussion*}
+In our work, it could be beneficial to remove the concept of gender or an association of a specific gender to a profession/occupation. For example, we may want to remove the correlation for doctors being predominately male. \\
+
+On the other hand, removing the entire concept of gender may lead to deformed images, however, so we must be careful when thinking about the concept we want to erase.
+\end{discussion*}
+
+There are two types of parameters that will be fine-tuned when a concept is to be erased: 
+
+\textbf{Cross-attention parameters} serve as a gateway to the prompt and directly depend on the text prompt, while other parameters (such as \textbf{self-attention parameters}) tend to contribute to a visual concept even if the concept is not mentioned in the prompt. \\
+
+Fine-tuning is done on the cross attentions,
+ESD-x, when the erasure must be controlled and
+specific to the prompt, such as when a named artistic style
+should be erased. On the other hand, fine-tuning of the unconditional layers (non-cross-attention modules), ESD-u, occurs when the erasure is required to be independent of the text in the
+prompt, such as when the global concept of NSFW nudity
+should be erased. 
+
+\begin{discussion*}
+It seems like if we erase a specific concept like ``firefighters are predominately male," we would want to fine-tune the cross-attention layer ESD-x so as to not affect the general image output. \\
+
+On the other hand, if we are to erase larger-scale concepts like gender, we will need to be careful that this erasure does not interfere with other generated outputs that may not pertain to gender bias.
+\end{discussion*}
 
 \newpage
 
@@ -262,6 +295,32 @@ In our own experiments, we can think about their loss function choice (backed up
 \subsection{Face Detectors}
 
 Existing Facial Detection Algorithms are evaluated on the widely known \href{http://shuoyang1213.me/WIDERFACE/index.html}
-{WIDER FACE} (Face Detection Benchmark Dataset). A number of Facial Detection Algorithms and their evaluations on WIDER FACE can be found \href{http://shuoyang1213.me/WIDERFACE/WiderFace_Results.html}{here}. Note that some of these algorithms are object detection algorithms adapted for facial recognition, but some are also specifically facial detectors (e.g. RetinaFace, YOLO5Face).
+{WIDER FACE} (Face Detection Benchmark Dataset). A number of Facial Detection Algorithms and their evaluations on WIDER FACE can be found \href{http://shuoyang1213.me/WIDERFACE/WiderFace_Results.html}{here}. Note that some of these algorithms are object detection algorithms adapted for facial recognition, but some are also specifically facial detectors (e.g. RetinaFace, YOLO5Face). \\
+
+In our project, we use YOLOv8-face, which is an extension of the YOLOv8 object detector fine-tuned on the WIDER FACE dataset.
+
+\newpage
+
+\section{Presentation Notes}
+
+\noindent
+Let $C_i$ be the confidence the $i^{\text{th}}$ person (in a batch of images or in a single image) is male. \\
+
+
+\begin{definition}[Fairness Loss]\noindent The \textbf{fairness loss} is \[ \left( \frac{\sum\limits_i C_i}{\text{\# people}} - 0.5 \right)^2.\]
+\textit{The goal of this ``loss" is to get the average probability a person is male to be around 0.5, which mitigates the gender bias.}
+\end{definition}
+
+\begin{definition}[Confidence Loss]
+\noindent The \textbf{confidence loss} is \[ \frac{\alpha}{\text{\# people}} \sum_i -(C_i - 0.5)^2.\]
+\textit{The goal of this ``loss" is to get individuals to be distinctly male or female.}
+\end{definition}
+
+
+
+
+
+
+
 
 \end{document}
