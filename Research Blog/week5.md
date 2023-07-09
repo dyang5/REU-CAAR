@@ -52,7 +52,7 @@ Week 5 Day 4: Group Grad Meeting
 
 This was an important but short day for research but a quite fun day overall.
 
-### <u>Day 32 (July 6th)</u>
+### <u>Day 33 (July 7th)</u>
 
 Week 5 Day 5: The Halfway Point
 
@@ -65,3 +65,11 @@ Week 5 Day 5: The Halfway Point
 For dinner, AB, SS, MA, and I went to Taqueria Habanero, a nearby Mexican food spot, which was quite good. The portion size for my tacos seemed small at first, but I think it filled me up (and the free tortilla chips were great). After grabbing some sort of boba dessert from a nearby Boba place, we headed back to the dorms and I played some Super Smash Bros with MA, NL, PM, and AB. I would have rather done some CodeForces (I did this later) but I wanted to socialize a bit more with some of the other REU students. Tomorrow, I'm hoping to relax a bit, get in a long swim, and get some more work done with CodeForces and maybe some research/grad school planning/reading.
 
 It's crazy to think we are essentially halfway through the REU now, but I've been happy with how everything has gone socially, physically, and academically thus far. 
+
+### <u>Day 34 (July 8th)</u>
+
+Week 5 Day 6
+
+Woke up today and went out for a Saturday long swim -- I ended up swimming for 50 minutes, going for 80 laps and 2000+ yards, which felt great. I somehow swam a 1:10 100 free for the final four laps of the workout, which is awesome. Strength wise, I haven't done a swim of over 35 minutes since I've been here (and this one was about 15 minutes longer than that), but I hope to keep building on this (and maybe do 100 laps at the end of the program).
+
+After swimming, I went back to make some Parfait-like concoction for lunch (Greek Yogurt, Frozen Strawberries, Granola, crushed butter waffles) before working on problems from the most recent CodeForces contest (1846). For dinner, I went on my own to grab some Poke from "The Spot Mini" which was yummy. Definitely a nice, chill individual day highlighted by a solid morning workout.
