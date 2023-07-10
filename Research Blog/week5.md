@@ -73,3 +73,17 @@ Week 5 Day 6
 Woke up today and went out for a Saturday long swim -- I ended up swimming for 50 minutes, going for 80 laps and 2000+ yards, which felt great. I somehow swam a 1:10 100 free for the final four laps of the workout, which is awesome. Strength wise, I haven't done a swim of over 35 minutes since I've been here (and this one was about 15 minutes longer than that), but I hope to keep building on this (and maybe do 100 laps at the end of the program).
 
 After swimming, I went back to make some Parfait-like concoction for lunch (Greek Yogurt, Frozen Strawberries, Granola, crushed butter waffles) before working on problems from the most recent CodeForces contest (1846). For dinner, I went on my own to grab some Poke from "The Spot Mini" which was yummy. Definitely a nice, chill individual day highlighted by a solid morning workout.
+
+### <u>Day 35 (July 9th)</u>
+
+The True Halfway Point: The End of Week Five
+
+On the weekends I wake up a little later than I would like to. Since the pool opens at 10 AM on Sundays and I typically play tennis at 11, I have this dichotomy between swimming before or after tennis (after would make more sense because it is usually quite hot out and a dip in the pool feels quick nice). In most weekends, I've been swimming before tennis and I did the same this week. 
+
+My morning swim was short and not quite as fun as normal -- the lanes were all taken and the swimmers who had single lanes just kept swimming without even looking in my direction (I was going to ask if they were willing to share the lane), which was sad. This meant I swam in the deep end, where laps are around half the distance, for the first 15ish minutes. Luckily, I was later able to grab a lane and swam there for a bit until it was time to leave for tennis. I played tennis with AF and SS before getting some Playa Bowls for lunch. 
+
+In the afternoon, I mostly lounged around before heading out for a walk at 2ish. After a bit, it got really windy out and thunderstorm-like, so I went back to run some code for research and work on some CodeForces. In the evening, I grabbed some Ramen on my own (it seemed like nobody else was really interested in going out this weekend) from Onikama Ramen Bar before retiring to my room for more CodeForces and other activities. Again, a nice chill day to round out the first half of the REU.
+
+To copy my summary from a few days ago, "it's crazy to think we are essentially halfway through the REU now, but I've been happy with how everything has gone socially, physically, and academically thus far." I hope the second half is even more fruitful in these regards and that I can build on this positive momentum from the first half!
+
+
