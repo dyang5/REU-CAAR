@@ -9,7 +9,7 @@
 % \newtheorem{definition}{Definition}
 
 \title{UMD Fairness Research Group Meeting Notes}
-\author{David Yang$^{\dagger}$, Selena She$^{\dagger}$, Amy Feng$^{\dagger}$, Alexander Goslin$^{\dagger}$}
+\author{David Yang}
 \date{Summer 2023}
 
 \begin{document}
@@ -115,13 +115,34 @@ A high-dimensional experiement found that the performance of an encoding does no
 
 \newpage
 
+
 \section{Source-Free Domain Adaptation}
 
 \textit{Led by Hesun Chen.} \\
 
-Datapoints from different datasets confer different distributions. Distribution Shift
+Datapoints from different datasets confer different distributions, which is the idea behind Distribution Shifts. \\
 
-In classic DA, source and target data are referenced at the same time. This cross reference may cause privacy leaks, and so a better way is to keep data local. Furthermore, frequently referencing data results in heavy communication costs. In source-free DA, source and target data are referenced separately (first, models are trained on source domains and then it is passed to the target domain).
+In classic DA (Domain Adaptation), the source and target data are referenced at the same time. This cross reference may cause privacy leaks, and so a better way is to keep data local. Furthermore, frequently referencing data results in heavy communication costs. In source-free DA, source and target data are referenced separately (first, models are trained on source domains and then it is passed to the target domain). See below for the classic DA Setup:
 
-Pseudo labeling is important since labeled data becomes inaccessible in later stages. Three types of pseudo label methods include hidden structure based, data augmentation based, and knowledge distillation based.
+\includegraphics[scale = 0.25]{ClassicDA_Setup.jpg}
+
+Pseudo labeling is important since labeled data becomes inaccessible in later stages. Three types of pseudo label methods include hidden structure based, data augmentation based, and knowledge distillation based. \\
+
+\section{Diverse Reinforcement Learning}
+
+\textit{Led by Pankayaraj Pathmanathan.} \\
+
+\begin{definition}[Diverse RL]
+    Diverse RL aims to induce diversity in policies as well as online adapation of the diverse policies. 
+\end{definition}
+
+\underline{Problem Formulation: Inducing Diversity}: We want to generate multiple policies so that each policy will be different from each other. Related/previous work includes information based and successor feature based methods.\\
+
+Pan then presents his own ideal method for Diverse RL (details left out, to be presented in future papers). Flaws of previous objective functions include that
+\begin{enumerate}
+    \item It makes the support for a certain policy weaker.
+    \item It adds a level of stochasticity to the overall reward.
+\end{enumerate}
+
+He introduces an alternative stable objective function that can be intrepreted as a cross entropy between two distributions with a constant difference. The new objective will be without an indicator function term. With this objective, the stability factor is a bigger factor when it comes to training (even compared to ``ideal'' objectives).
 \end{document}
