@@ -41,7 +41,7 @@ I've been feeling quite tired after research these last few days. I think part o
 - 8:00 - 9:00 PM: Our group had originally planned to meet up in the basement and join the meeting, but plans fell through and we all ended up Zooming in from individual rooms. Our advisor showed up a bit late so we started closer to 8:10. I mainly discussed the DeepFace classifier results I had on the FairFace validation set and upcoming plans for the Linear Head approach. SS discussed her Erasing Concepts approach, AF her Domain Translator approach, and XG his Reinforcement Learning approach. Overall, I think we all have some work to do on our approaches -- our advisor offered some suggestions but we all need to build on our approaches and experiment some more.
 
 
- ### <u>Day 39 (July 13th)</u>
+### <u>Day 39 (July 13th)</u>
 
 Week 6, Day 4
 
@@ -54,3 +54,18 @@ Week 6, Day 4
 - 4:00 - 5:00 PM: There was a research talk by Evan Golub on "How to Do Bad Science" that I was looking forward to (we were told to watch a TED talk and read some comics in preparation for the talk and ensuing discussion, and both of these were interesting), but obviously with the COVID situation, I had to miss out on the talk.
 
 Post-research plans to go get my swimming workout in were obviously also derailed, but I did end up going for a quick 2-mile run before grabbing CFA dinner for the third day in a row (I was wearing a mask for this). For the rest of the week, I'll be isolating and grabbing food with a mask on while working from home. This is a bit of a bummer but I'm hoping my REU friend recovers quickly and that no one else has COVID/becomes symptomatic. Fingers crossed!
+
+### <u>Day 40 (July 14th)</u>
+
+Week 6, Day 5 -- Work from Home Day 1
+
+ - 10:00 AM - 12:00 PM: Since I'm self-isolating, I am not able to go for morning swims -- instead, I get an extra hour of sleep. Today is the first and hopefully last day of working from home. I started the day by continuing my work from previous days -- trying to get better diffusion model output for group pictures. For some reason, I was getting the same out of storage issues as I've been getting the past few days, and my `.bashrc` file was completely empty! I quickly added the commands from before into the file and ran them in the terminal as well to set my cache to my scratch directory. It's a bit annoying to have to deal with the same problems every time, but hopefully I won't have to do this for much longer. After some basic experimentation with negative prompting and group images, I didn't find any improvement in the stable diffusion generated images. For the remainder of the morning, I thought about some limitations of our project and added them to a slideshow for our next meeting. Some problems include:
+
+  > In our generative process, our stable diffusion generated images yield deformed/blurry faces for people in group photos. Obviously, we want the faces to be as normal/human-like as possible. (This is what I've been experimenting with the past few days, to not much progress).
+  > In our general pipeline, we use stable diffusion generated images (see above), then pass those generated images to a face detector/gender and race classifier. As I've written before, the gender/race classifier is itself imperfect/faulty (it especially has trouble separating Middle Eastern people from Latino Hispanic people). Since we are using this classifier in an attempt to get "fair image generation", our "fair images" may also be affected...
+
+These are two big areas that we will need to further think about/address. We don't have immediate answers for either of these yet either, but we will need to work on both of these areas (and others).
+
+- 1:00 - 4:00 PM: It turns out that the HVAC (water, air conditioning system) in Iribe, the main CS building where the rest of my group and other non-quarantined research groups are working, went out in the morning. From what I heard, everyone dispersed back to the Student Union for an early lunch, and my research group didn't end up working together in the afternoon session. It sounds like it's been a rough few days overall for the REU with the COVID positive case and the HVAC system going out. Overall, though, nothing really changed in my afternoon plans since I was working from home. I did a bit more experimentation with Stable Diffusion -- it turns out that giving the prompt "give me a portrait photo of a doctor" (i.e. asking for a single person image output) along with negative prompts generates a much more realistic photo than the group image prompts. In the future, I'm hoping to test the classifier on the single-person generated images to get a sense of the problems we may have look more into. 
+
+It has sucked not being able to do much outside of stay in my room due to the protocol for COVID isolation. Though I was planning to go for a run right before dinner, the minute I stepped outside, it started raining, which sucks. I went back to grab my umbrella and head over to grab some dinner from the Ramen shop nearby. On the way back, I also noticed that my umbrella is kind of broken, which double sucks. 
