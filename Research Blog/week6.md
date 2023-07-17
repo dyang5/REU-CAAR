@@ -75,3 +75,16 @@ It has sucked not being able to do much outside of stay in my room due to the pr
 Week 6 Day 6
 
 Today was definitely a more chill day for me. In the morning, I worked on some CodeForces problems. For an early lunch, I finally finished the tub of Greek Yogurt I got a week or two ago (along with the Frozen Strawberries, Granola, etc). In the afternoon, I ended up going for a run to get in some exercise. I went on the Paint Branch Trail before running around a really nice lake (Lake Artemesia), where there are 1.3 mile loops around the lake. The run ended up being 3 miles (I had planned to run longer but was really tired), and I walked another loop around the lake before heading over to Playa Bowls to get some water and an acai bowl. I usually run later in the day (closer to dinner) but the weather report said it was going to thunder at 4 PM -- it did not. Today was definitely a pretty basic yet relaxing Saturday; I'm feeling good health-wise as well and don't appear to have any COVID-like symptoms.
+
+
+### <u>Day 40 (July 14th)</u>
+
+The End of Week 6
+
+I woke up earlier today hoping to head out to grab some breakfast and then participate in the CodeForces contest. I'd say I kind of did both of these things -- I heated up some Bagel Bites before the contest and ended up doing the problems concurrently (but not submitting anything since both the first two problems were tedious/long/tricky). I keep telling myself that I should be actually participating and submitting in these contests but honestly, both problems took me a while to solve. I am happy that at least I made the effort to participate in the contest/try the problems despite the fact that self-isolating has sort of sucked mentally (not meeting others, staying in the room, no swimming exercise). 
+
+Post contest, I ended up submitting and debugging my work for B and reading a bit about a simple solution for A (some people said A was harder than C or D), which was a tough problem to get if you hadn't seen it before. I also watched the Wimbledon Tennis finals, which was cool and motivating for me to play more tennis (unfortunately, not today even though I typically swim -> tennis on Sundays since I'm supposed to be isolating for at least another day).
+
+In the afternoon, I mainly read and relaxed since all the screen time from the morning hurt my eyes. I went for a quick run around campus and then to Potomac Pizza, where I beasted 5 pieces of a Large Combo pizza down (I am realizing now that I had pizza-like food for both "meals" today). After a long, tiring walk back home (I was so full), I ended up cutting and eating up some of the watermelon my parents brought over. 
+
+This was a good day to wrap up the sixth week. The only sad part of the day was that the monitor I ordered on Amazon for Prime Day seemed to not get delivered despite two attempts (all other Amazon packages I've ordered here have come perfectly fine), but it'll hopefully arrive tomorrow. In terms of research, I'm back to some serious work tomorrow -- I think I will work more on diffusion model output and analyze the results on the DeepFace classifier.
