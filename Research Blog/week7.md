@@ -87,3 +87,11 @@ I had a terrible end to the night yesterday with a bad stomachache from whatever
 My stomach felt much better when I woke up in the morning. I had initially planned to play tennis with AF and SS at 11 but wasn't sure due to the complications yesterday night. Luckily, since I felt much better, I went out to play with AF (we normally play on Sundays but we have a REU hiking activity tomorrow which should be fun). Afterwards, I grabbed some PE, ran into SS and JS in line, and SS, AF, and I ate lunch together at the Union. I took a quick break (and nap) before I went out later in the afternoon to get some swimming laps in. The swimming workout itself was great -- I had to share a lane for the first bit, but a lane freed up and I got in 80 laps to make up for a missed workout yesterday. After the pool, I went to pick up a package and headed to Subway to grab a sandwich to-go for dinner. 
 
 In the evening, I drafted some emails to go out to professors and opened up my new monitor -- all in all, definitely quite an eventful day! Glad to get through it with a stomach that feels good, for sure.
+
+### <u>Day 48 (July 22nd)</u>
+
+End of Week 7: Trip to Great Falls
+
+I woke up early today (7:30 AM) for a group REU to Great Falls, a nearby hiking trail with a waterfall. I left with the first group (AG, SK, JS, and AF), and we played some Alphabet Games and Contact! on the way to get the conversations flowing on the way there. We met up with ZS, SS, and LH, and proceeded to look at the waterfalls/hike for about two to three hours. On the way back, we stopped at Silver Diner, a really nice diner spot, for lunch. I switched cars along the way, heading back with ZS, SS, and LH, and when I made it back, I went straight to the UMD pool to get some laps in.
+
+After showering up after a workout, I proceeded to head out with ZS and SS for Qu Ramen, which was quite good. We stopped for some Kung Fu Tea before heading back, where I worked on some CodeForces and drafted some more emails. All in all, it was quite an eventful day and a great close to the seventh week of the REU! It was a lot of fun to interact with more of the REU on the hike & lunch, and I hope to continue to do that with the remaining three weeks.
