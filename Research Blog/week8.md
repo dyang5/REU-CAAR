@@ -40,6 +40,21 @@ Week 8 Day 3
 
  - 1:30 - 4:00 PM: I quickly grabbed some lunch before heading back to IRB to work in our afternoon research session. PM and MA came to our room and we talked a bit about our research, before they dispersed and we got back to working on our project. I talked to SS and AF a bit more, extending the discussion we had in the morning, about how we might use the confidence estimates from our classifier to get proper guidance weights -- in the remaining time, I began implementing the first of the approaches we talked about, before running into out of memory errors caused by CUDA (so I will run these again tomorrow). Since I've just been experimenting, I've only been generating three images at a time but I imagine I'll need to generate a lot more to get a better sense of whether or not the distribution of male-female generated images is balanced.
 
- After research, I took a bit of a break before heading out to play some soccer with NL, PM, MA, and SS. I went to STAMP to get some CFA and had dinner with LH, with SS and AF joining later. She talked a bit about trying to get SWE internships next year and we talked a bit about a Sliding Windows Leetcode problem she was thinking about, which was fun. I think it's really fun to be able to connect to some of these REU students; for the younger ones, I've been telling them that I'd love to be able to help them in any way I can, especially since I wish I had some mentorship or upperclassmen friends to talk with when I was just starting out at Swarthmore...
+ After research, I took a bit of a break before heading out to play some soccer with NL, PM, MA, and SS. I went to STAMP to get some CFA and had dinner with LH, with SS and AF joining later. She talked a bit about trying to get SWE internships next year and we talked a bit about a Sliding Windows Leetcode problem she was thinking about, which was fun. I think it's really fun to be able to connect to some of these REU students; for the younger ones, I've been telling them that I'd love to be able to help them in any way I can, especially since I wish I had some mentorship or upperclassmen friends to talk with when I was just starting out at Swarthmore. So for anyone who's younger (or older) and may be curious about anything/want guidance, feel free to reach out!
 
- 
+ I went for a late-night run around the Main Quad to get some extra exercise for the day -- this felt great and I didn't feel any stomach issues, so I was quite happy about that.
+
+
+ ### <u>Day 53 (July 27th)</u>
+
+Week 8 Day 4: Stomachache
+
+- 8:30 - 9:00 AM: Woke up in the morning and to put it simply, stomach felt terrible. The pain was a bit different from previous days though -- it's closer to the chest area and more of a nagging rather than a off-and-on-cramping. I decided to get some extra sleep and not risk any strenuous activity.
+
+- 10:00 AM - 12:00 PM: Really not much to report here, research wise. I was not feeling good after waking up and decided to work from home. This mainly meant staying in bed and grabbing at my stomach. The few tests I tried to run ended up getting CUDA out of memory errors...
+
+- 1:00 PM - 2:30 PM: I grabbed some lunch from PE and met up with the other REU students eating at STAMP. Lunch didn't go too well either with me feeling quite out of it and my stomach still hurting. I attempted to head back to IRB and work there but at around 2:30 decided against working for longer and went back to the dorm to sleep.
+
+- 4:00 - 5:00 PM: I had intended on going to Emily Kaplitz's talk on "Neurodiversity" but my stomach didn't feel good enough to make the walk over to the Math building. I heard the talk was great so it sucks that two of the talks I've wanted to go to the most (Emily's and Evan's) are the only ones I've missed. 
+
+After "research" today, I carried up six (!) 40 packs of water my parents ordered from Costco for me, grabbed dinner at CFA (but got a healthier wrap today due to stomach pain) and talked briefly with AB, LH, and SS. To get my mind off my stomach and jumping in bed (laying down kind of hurts my stomach), I agreed to go to the library to work with LH and AF. After leaving the library when it closed and some more debugging, I managed to get the CodeForces problem I was working on, so that's probably the highlight of my day. I think if my stomach still hurts tomorrow, I'll get another appointment with the doctor... this is probably the worst stretch of the REU thus far so sorry for any new readers who have to read through this stretch...
