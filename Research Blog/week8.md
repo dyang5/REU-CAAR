@@ -73,3 +73,13 @@ Week 8 Day 5: Recovery
  - 1:30 - 4:00 PM: In the afternoon, I kept working on the final presentation slides. I made a slide outlining the presentation and began working on the background/motivation slides. I think I will need to do a slightly better job of explaining the basics of a diffusion model, but the presentation making has been relatively easy so far since we already have a few good baseline slides from our group presentations.
 
  Post-research, I took a nap before heading over to CVS to get some of the over-the-counter medication the doctor recommended. After walking back to drop off the medication (and some Gatorade), I quickly showered and met SK, SS, CD (one of last year's students visiting), AF, and LH outside to take an Uber to Taqueria Habanero. We got a nice dinner and due to some heavy rain and thunder outside, decided to Uber back. It's always good to talk and hang out with the other REU students -- the best part of it was that my stomach was and has been feeling a lot better. Fingers crossed it stays feeling good throughout the remainder of the REU!
+
+### <u>Day 54 (July 28th)</u>
+
+Week 8 Day 6: Weekend Recovery pt. 1
+
+- 10:30 AM - 1:00 PM: My big goal this weekend is to recover well from all the stomach pain I've been having. After a good night's rest, I woke up this morning and decided to enter in the CodeForces content being hosted. At the start of the REU, my goal was to keep practicing (at least a problem a day) and to enter in as many competition as I could, and I've been doing this to varying success (I've been doing my daily problems but haven't been doing the competitions as seriously as I would have liked). Despite a subpar performance (solving A in 3 minutes, B in 45ish minutes, and then not getting C1 -- a difficult but doable problem), I'm happy to have at least participated in the contest formally, which is my first formal participation since the REU.
+
+After the contest, I made myself some scraps for lunch. This included a mumbo jumbo of all the food my parents ordered for me due to my stomachaches, including Bananas, Graham Crackers, and Ramen/Noodles. I then upsolved C1 after understanding the solution and mainly lounged around until dinner. There was a rough thunderstorm outside, so I had some noodles and a banana for dinner. 
+
+No stomachache so far, so it's already a good day considering how I've been feeling lately. My parents told me to lay low on heavy exercise for a bit so no running or swimming again today (the bad weather out made other sports a no-go too).
