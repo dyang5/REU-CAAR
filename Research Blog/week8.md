@@ -74,7 +74,7 @@ Week 8 Day 5: Recovery
 
  Post-research, I took a nap before heading over to CVS to get some of the over-the-counter medication the doctor recommended. After walking back to drop off the medication (and some Gatorade), I quickly showered and met SK, SS, CD (one of last year's students visiting), AF, and LH outside to take an Uber to Taqueria Habanero. We got a nice dinner and due to some heavy rain and thunder outside, decided to Uber back. It's always good to talk and hang out with the other REU students -- the best part of it was that my stomach was and has been feeling a lot better. Fingers crossed it stays feeling good throughout the remainder of the REU!
 
-### <u>Day 54 (July 28th)</u>
+### <u>Day 55 (July 29th)</u>
 
 Week 8 Day 6: Weekend Recovery pt. 1
 
@@ -83,3 +83,5 @@ Week 8 Day 6: Weekend Recovery pt. 1
 After the contest, I made myself some scraps for lunch. This included a mumbo jumbo of all the food my parents ordered for me due to my stomachaches, including Bananas, Graham Crackers, and Ramen/Noodles. I then upsolved C1 after understanding the solution and mainly lounged around until dinner. There was a rough thunderstorm outside, so I had some noodles and a banana for dinner. 
 
 No stomachache so far, so it's already a good day considering how I've been feeling lately. My parents told me to lay low on heavy exercise for a bit so no running or swimming again today (the bad weather out made other sports a no-go too).
+
+After dinner, AB, DS, LH and I "watched" the movie "My Dinner with Andre." I got kind of lost in the beginning and didn't pay too much attention after a bit, but I thought the overall message was quite nice (in my opinion, to generally enjoy the little things in life).
