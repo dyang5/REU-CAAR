@@ -20,11 +20,9 @@ Somewhere along the line, the Panera lunch came in, with everyone running over t
 
 After research, I went straight to Today's Hair to get a haircut -- which was quite needed. Heading back to the dorms, I talked with DS a bit inside before deciding to head out on another run (2 mile one just like in the morning) to get some more exercise in on a nice day. I ended up coming back, only for ML and AB to be in the shower cue, so I promptly went out to the dining hall with LH for dinner. We ended up having a good conversation, which reminded me how nice it is to be talking with other REU students :) I came back and showered, and then we met up with AB, SS, DS, and XG to watch the movie "No Hard Feelings." I got some CodeForces done along the way (with an extra hour of debugging needed after the movie) and unfortunately also ended up losing my keys (which is not good -- I got a spare for now but will need to find them. I do think they're somewhere in the suite though which should limit potential spots) before calling it a night. I think I'll definitely need to work extra hard this week to get the presentation going and to prepare a good summary of the work we've done -- tomorrow will be a big day on this front.
 
-## Week 9
-
 ### <u>Day 58 (August 1st) </u>
 
-Week 9 Day 1: 1.5 to Go
+Week 9 Day 2
 
 - 8:30 - 9:00 AM: I woke up pretty tired and so I snoozed the alarm for another thirty minutes. After waking up at 8:30, my stomach didn't feel too great so I decided to skip my morning workout. Excuses are excuses at this point, but if there's any solace in the fact that I skipped, I did run twice yesterday, so technically my evening run yesterday can replace my intended morning run today. My keys did end up turning up, however, which was the highlight of my morning -- it turns out DS took mine, mistaking it for his, and he ended up with two keys in his room last night. Minor complications aside, it's good to have them back as the room replacement key prices are expensive (I would have to pay only if I had not found them).
 
@@ -37,3 +35,19 @@ After research, I joined DS, SS, and PM, who made plans to go to the gym. After 
 In the rest of the evening, I did some laundry (this was a bit annoying since both dryers and washers were full both times I went -- I felt bad about taking out other people's clothes but I luckily noticed that one of the piles was DS's, so I called him to take out his laundry which freed up a slot for me), coding, and worked a bit on the presentation before calling it a night. These have certainly been an eventful last few days but I think it's important to spend as much group time as I can with everyone before the REU ends. 
 
 As a side note, my girlfriend Sherry is finally moving into her apartment for her full-time work starting soon, which is awesome! I'm very proud and hope that she settles in well (hi if you're reading this!) -- she is actually planning to visit sometime soon so that will be fun as well. 
+
+### <u>Day 59 (August 2nd) </u>
+
+Week 9 Day 3
+
+- 8:30 - 9:00 AM: Got out for some morning exercise this morning with a 2 mile run. It's good to get back into the groove of things exercise-wise, especially because I think it sets me up well for the work day.
+
+- 10:00 AM - 12:00 PM: In the morning, I mostly worked alone. My group didn't end up arriving until later, but I focused on building on the presentation slides I worked on yesterday and testing the SEGA approach more. As I found previously, the SEGA is working pretty well (even compared to the Fair Diffusion approach) when I am using gender guidance, but not as well when I am attempting to guide both the race and the gender, since the image output seems to get completely changed. After a few failed attempts of tinkering with the weights more and seeing if that would change anything, I finally figured out why this is the case -- in one of my lines of code, I was setting the pipeline of the generated image to a different random seed than the other generated images -- this is the main cause in the complete change of the output of the image!
+
+- 12:00 - 2:00 PM: The UMD Math REU had their final poster presentations today, and REU-CAAR was invited to come listen. Overall, I thought the posters were quite well done. Considering their program is only 8 weeks long, I felt that their overall work was quite impressive. I listened to a majority of the poster presenters, including ones about Cluster Algebras and Polylogarithm Relations, the SIR Model, and a few Applied Math/Machine Learning topics revolving around dimensionality reduction of molecular interactions.
+
+- 2:00 - 4:00 PM: After the Math REU talks, I went back to IRB and met up with the rest of my group. We each discussed presentation plans (AF finished her slides and XG says he'll work on them tomorrow before our meeting with our advisor), our research progress, and what we anticipate discussing with our advisor tomorrow. In terms of my SEGA approach, after I noticed the seed problem, the results are better but still don't work as nicely as I would like -- the guided images have pretty much everyone as the same race, which is not what we are looking for in terms of fair representation. I do think that we have good progress to show on this front and am excited to hear what my advisor thinks/has to say tomorrow.
+
+I stayed a bit longer after research to listen to the Parallel Algorithms Group (PM, MA, AB) run through their presentation. Afterwards, I grabbed some CFA and scarfed it down for dinner before heading out with XG, SS, DS, and LH to Karoake in DC. We met up with the other group (PM driving SK, ZS, MA, AZ, and AB) and had a really good time at the Karoake place. I do think that certain people were pushing a bit hard on the songs they wanted to sing without thinking much about what others wanted, and certain people definitely enjoyed the Karoake more than others, but it was overall a fun time. After the drive back, I relaxed, did some coding, and prepared a bit for our meeting tomorrow. Big day tomorrow -- and it will be a long one too. After research we'll jump into our meeting (4-5) and then there is an REU Board Game night, which should be a good way to decompress after the meeting.
+
+
