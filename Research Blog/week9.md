@@ -68,3 +68,16 @@ Week 9 Day 4: Meeting #6
 After the meeting, I joined up with a large contingent of the REU for another Board Game night. The catering option was Medditeranean today, and I quickly ate that before moving on to play DiXit with Sherry, PM, MA, SS, LH, and a grad student. We moved on to a few hectic but fun games of Mafia before calling it a night. It was definitely a super long day but really fun overall, and it was especially highlighted by the fact that I got/get to see/be around Sherry again after not seeing her for the last few months! Hoping that tomorrow is a productive and fun Friday, which will wrap up the 9th (wow!) week of the program.
 
 
+### <u>Day 61 (August 4th) </u>
+
+Week 9 Day 5: End of Week 9
+
+- 8:30 - 9:00 AM: Felt quite tired this morning so slept in to get some extra rest. I did wake up to a flurry of texts -- it turns out a good third of the REU went out to the DC Waterfront area and messed around until 3 AM. This made me feel great about my decision to not go out yesterday night -- I was already feeling pretty tired despite sleeping around midnight.
+
+- 10:00 AM - 12:00 PM: XG and SS messaged me that they were going to work from home yesterday early in the morning (they ended up going to DC), so it was just me and Sherry in IRB in the morning. As I wrote about yesterday, I read over the Semantic Guidance paper more closely, paying attention to the mathematical reasoning and the general framework. After the first read through, I didn't get much more intuition behind the math, so I switched over to working a bit on the presentation slides to close out the morning.
+
+- 12:00 - 1:30 PM: Sherry and I walked over to IRB where we met up with more of the REU -- I haven't been feeling too hungry lately and managed to eat only half my pizza. After lunch, we went to the bookstore to look around and contemplate what to spend my extra meal money on.
+
+- 1:30 - 4:00 PM: XG didn't show up for lunch and it seemed like SS was going to join a larger group to play Jackbox, so I decided to work from home in the afternoon after dropping off the leftover pizza in the fridge. I continued to read through the SEGA paper again -- it seems like they use noise estimates to provide the semantic control/guidance -- but the math is quite heavy and not terribly motivated. I'm hoping to get a solid grasp by Monday and to meet with my advisor then to discuss.
+
+I felt quite tired in the afternoon so I took a nap, before working on some CodeForces and then heading out with Sherry for a run. We did a nice 2 mile loop around campus and walked the remainder of the distance to Pho Thom to enjoy a nice dinner. We grabbed some Kung Fu Tea on the way back before chilling out for the night. I think I'll try to play some tennis with Sherry tomorrow and maybe have some meals with the others. 
