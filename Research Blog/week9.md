@@ -82,7 +82,7 @@ Week 9 Day 5: End of Week 9
 
 I felt quite tired in the afternoon so I took a nap, before working on some CodeForces and then heading out with Sherry for a run. We did a nice 2 mile loop around campus and walked the remainder of the distance to Pho Thom to enjoy a nice dinner. We grabbed some Kung Fu Tea on the way back before chilling out for the night. I think I'll try to play some tennis with Sherry tomorrow and maybe have some meals with the others. 
 
-### <u>Day 55 (July 29th)</u>
+### <u>Day 62 (August 5th)</u>
 
 Week 9 Day 6: The End is Near
 
@@ -93,3 +93,16 @@ For lunch, we decided to head over to Aroy Thai, which was recommended to us by 
 In the afternoon, I took a look at problems from this morning's CodeForces contest. A and B were relatively simple and I got them pretty quickly (I would have placed between 3000th and 5000th with just my performance on the first two  problemsin practice, which would be a strong performance relative to my rating), but C looked harder and I want to spend some time working on it later. Sherry and I attempted to check out the bookstore to see what merch we could get with my (still) extra money, but the bookstore closed before we could really find anything. 
 
 We went out for an evening run afterwards -- this time to make sure Sherry secured the Course Record on the McKeldin Loop segment (I ended up crushing a 6:45 mile after pacing her for the first 800), and then walked over to Playa Bowls to enjoy a light dinner. We came back, relaxed and finished the rest of our leftover pizza, before calling it a night. It was definitely a fun time today -- she is leaving tomorrow which will be sad but I'm glad and proud that she's getting ready for the start of her new job on Monday!
+
+### <u>Day 63 (August 6th) </u>
+
+Week 9 Day 7: The End of Week 9
+
+Sherry and I decided to wake up a bit earlier in hopes of grabbing breakfast before she left. After taking a look at the place we were thinking of going to yesterday (The Common), we noticed that there wasn't many breakfast options, so we ended up walking to Starbucks and enjoying some coffee and breakfast sandwiches. After coming back to pack some more (I gave her my yoga mat and a rice cooker to bring back), I called an Uber back for her and she went over to her apartment to prep for her starting her job tomorrow!
+
+I mainly relaxed for the afternoon -- I ended up just having some Graham Crackers for "lunch" since no one seemed to want to head out for a group lunch. After lunch, DS, AB, and I organized a group 800m race around the Quad, with PM and LH watching. I unfortunately finished 2nd, finishing behind DS and getting dusted in the last 50 meters... that being said, we were definitely finished around 2:30ish (at least that's what it felt like) so we were definitely moving. Since I had agreed to go on a group run with AB, our suite (DS, AB, ML, and I) immediately went for a longer run after the race -- I was absolutely gassed so I ended up struggling through the first mile before calling it a day.
+
+For dinner, I went out to eat with AF, LH, SK, DS, and we met up with MA at Hanami, a Japanese restaurant. I enjoyed a Chicken Teriyaki Bowl (the portion size was kind of small but it tasted alright) and grabbed some pictures (as I do every time we go out). To close out the night, I worked a bit on our presentation before calling it.
+
+It's been a crazy nine weeks -- just one more and the program's over. I hope we finish strong research-wise with a great presentation and that we continue to build on our existing approaches... socially, I hope we all enjoy the last bit of time we have as this year's REU group!
+
