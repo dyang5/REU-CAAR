@@ -16,7 +16,7 @@ Week 8 Day 1: 50 Days
 
  After research, I went down to the second floor to pick up a check for my last few weeks of research. I then walked back to the dorm, felt quite tired, and proceeded to take a much-longer-than-anticipated nap. I had originally planned to head to the pool after research but I didn't think I would make it back to the Student Union by 7 if I did do that, so I ended up going for a pretty breezy 2 mile run around campus. Grabbing some CFA from STAMP, I went back, ate dinner, worked on some CodeForces (I finished up 1850H, which means that I've now "solved all" -- missing A, B, and C which are typically much easier-- of the problems from the most recent Div 4, which is the first contest I've fully solved), and did some laundry to close out the night.
 
- ### <u>Day 51 (July 25th)</u>
+### <u>Day 51 (July 25th)</u>
 
 Week 8 Day 2
 
@@ -28,7 +28,7 @@ Week 8 Day 2
 
  I've been feeling quite tired after research, so I mainly relaxed until 6, when I decided to go do laundry, grab CFA for dinner, and then move my clothes from the washer to the dryer. I came back, did some quick CodeForces, reading, and more relaxing. I like hanging out with the other REU students but it's always good to have some days of solo time to decompress. A few of us were initially planning to watch a movie at night but LH had a headache, so we'll have to wait another day for that.
 
- ### <u>Day 52 (July 26th)</u>
+### <u>Day 52 (July 26th)</u>
 
 Week 8 Day 3
 
@@ -45,7 +45,7 @@ Week 8 Day 3
  I went for a late-night run around the Main Quad to get some extra exercise for the day -- this felt great and I didn't feel any stomach issues, so I was quite happy about that.
 
 
- ### <u>Day 53 (July 27th)</u>
+### <u>Day 53 (July 27th)</u>
 
 Week 8 Day 4: Stomachache
 

@@ -40,7 +40,7 @@ Week 10 Day 3: Final Presentations and Round 1 of Goodbyes
 
  There are just a few more official days left of the REU -- it's certainly been a memorable experience that I've been really glad to have. Tomorrow, we are watching the Computational Biology REU's talks (they watched ours today), which should be fun.
 
- ### <u>Day 67 (August 10th) </u>
+### <u>Day 67 (August 10th) </u>
 
 Week 10 Day 4: REU-BRIDGE Participants
 
@@ -51,7 +51,7 @@ Week 10 Day 4: REU-BRIDGE Participants
  We played some group games like charades (which I thought was quite fun), talked a bit more as a group, and decided to head to Wawa for dinner. CL, MT (both of which are high school students), DS, and I took one car while ZS, XG, AF, and LH took the other. We returned back to the dorms to eat our food (I thought the Wawa food wasn't too good but that may just be because I haven't really had an apetitite lately) before hanging out and talking for the night. Tomorrow is our official "Farewell Talk" and "Farewell Dinner", and a lot of students will be leaving tomorrow, so I'll be sure to wish everyone a goodbye before I head out on Saturday.
 
 
- ### <u>Day 68 (August 11th) </u>
+### <u>Day 68 (August 11th) </u>
 
 Week 10 Day 5: Farewell Presentation and Discussion(s)
 
@@ -61,7 +61,7 @@ Week 10 Day 5: Farewell Presentation and Discussion(s)
 
 Afterwards, we all headed back to the dorms to relax while people who were leaving packed some more. We bid our farewells to CK and AZ at 2ish, and later, ML and AB at 3ish. I made sure to get as many photos together as I could to commemorate the occasion -- after all, it's been a nice 10 weeks with everyone. We went back to our suite before throwing around a football (mainly me, DS, and XG) with CL, as LH, SK, and AF relaxed in the grass. We snapped some group pictures once again before saying goodbye to CL and walking him to his car. The remainder of us stopped at the nearby rolled ice cream spot afterwards to grab some ice cream and chill while playing Contact. Afterwards, we retired to our rooms to pack up some more and made some dinner plans, as we wanted to enjoy our last dinner together. Since AF's parents were coming later and planned to have dinner with her, SK, LH, XG, DS, and I decided to head to dinner at the College Park Grill with DS's mom, who was also around to travel back with him. It was nice to meet her, and we had a nice chat about some of the program's best moments and our projects. After walking back to our suite, we decided to watch some funny YouTube videos together and play some group Charades once more before each retiring for the night. I ended up spending a bit more time packing up before getting some much needed sleep.
 
- ### <u>Day 69 (August 12th) </u>
+### <u>Day 69 (August 12th) </u>
 
 Week 10 Day 6: Final Farewells
 

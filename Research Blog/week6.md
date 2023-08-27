@@ -70,14 +70,14 @@ These are two big areas that we will need to further think about/address. We don
 
 It has sucked not being able to do much outside of stay in my room due to the protocol for COVID isolation. Though I was planning to go for a run right before dinner, the minute I stepped outside, it started raining, which sucks. I went back to grab my umbrella and head over to grab some dinner from the Ramen shop nearby. On the way back, I also noticed that my umbrella is kind of broken, which double sucks. After letting my dinner digest for a bit, I went out for a three mile run around campus; it was a lot cooler than previous days, especially later at night, so the run felt quite nice. It's definitely felt good to get a bit of exercise after staying in my room all day.
 
-### <u>Day 40 (July 14th)</u>
+### <u>Day 41 (July 15th)</u>
 
 Week 6 Day 6
 
 Today was definitely a more chill day for me. In the morning, I worked on some CodeForces problems. For an early lunch, I finally finished the tub of Greek Yogurt I got a week or two ago (along with the Frozen Strawberries, Granola, etc). In the afternoon, I ended up going for a run to get in some exercise. I went on the Paint Branch Trail before running around a really nice lake (Lake Artemesia), where there are 1.3 mile loops around the lake. The run ended up being 3 miles (I had planned to run longer but was really tired), and I walked another loop around the lake before heading over to Playa Bowls to get some water and an acai bowl. I usually run later in the day (closer to dinner) but the weather report said it was going to thunder at 4 PM -- it did not. Today was definitely a pretty basic yet relaxing Saturday; I'm feeling good health-wise as well and don't appear to have any COVID-like symptoms.
 
 
-### <u>Day 40 (July 14th)</u>
+### <u>Day 42 (July 16th)</u>
 
 The End of Week 6
 
